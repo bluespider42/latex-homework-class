@@ -85,6 +85,15 @@ or
     This will be part x.2.
 \end{arabicparts}
 ```
+or
+```tex
+\begin{romanparts}
+  \questionpart
+    This will be part i).
+  \questionpart
+    This will be part ii).
+\end{romanparts}
+```
 
 See [homework.tex](homework.tex) for more.
 
