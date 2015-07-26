@@ -113,6 +113,10 @@
   \begin{enumerate}[label=\textbf{\arabic{questionCounter}.\arabic*})]%
 }{\end{enumerate}}
 
+\newenvironment{romanparts}[0]{%
+  \begin{enumerate}[label=\textbf{\roman*)}]%
+}{\end{enumerate}}
+
 \newcommand{\questionpart}[0]{\item}
 
 % ----- Induction Environment -------------------------------------------------
